@@ -6,7 +6,7 @@ const users = [
     { nome: 'Renata', idade: 21, cargo: 'front-end' },
   ]
   function generateInfo(user) {
-    return `${user.nome} tem ${user.idade} anos e é ${user.job}.`
+    return `${user.nome} tem ${user.idade} anos e é ${user.cargo}.`
   }
   for (let i = 0; i < users.length; i++) {
     console.log(generateInfo(users[i]))
